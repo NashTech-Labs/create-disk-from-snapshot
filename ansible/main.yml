@@ -1,0 +1,10 @@
+- name: Manage nginx
+  hosts: all
+  gather_facts: true
+  tasks:
+   - setup:
+       filter: ansible_*
+  become: yes
+  # connection: ssh
+  roles:
+    - nginxRole
