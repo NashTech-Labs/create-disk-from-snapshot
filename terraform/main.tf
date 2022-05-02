@@ -13,8 +13,4 @@ resource "null_resource" "knolx" {
       host = google_compute_instance.nginx.network_interface.0.access_config.0.nat_ip
     }
   }
-  
-  provisioner "local-exec" {
-    command = "ansible-playbook ../ansible/main.yml"
-  }
 }
