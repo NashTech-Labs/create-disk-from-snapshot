@@ -1,0 +1,15 @@
+roles/*.*
+
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+*.terraform.*
+
+# Crash log files
+crash.log
+
+terraform.tfvars
+keys.json
