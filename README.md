@@ -6,10 +6,10 @@
 
 ## Setup gcloud-cli
 
-- sudo snap install google-cloud-cli
-- gcloud auth login
-- gcloud config set project <PROJECT-ID>
-- gcloud auth activate-service-account --key-file terraform/<service-account-json-key>.json 
+- ``` sudo snap install google-cloud-cli ```
+- ``` gcloud auth login ```
+- ``` gcloud config set project <PROJECT-ID> ```
+- ``` gcloud auth activate-service-account --key-file terraform/<service-account-json-key>.json ```
 
 
 ## Create a service account
@@ -24,35 +24,8 @@
 
 ## How to Run
 
-- terraform init
-- terraform fmt
-- terraform plan
-- terraform apply --auto-approve
-- terraform destroy --auto-approve
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Blogs to know about terraform and Ansible
-- https://blog.knoldus.com/introduction-to-terraform-1/
+- ``` terraform init ```
+- ``` terraform fmt ```
+- ``` terraform plan ```
+- ``` terraform apply --auto-approve ```
+- ```terraform destroy --auto-approve ```
