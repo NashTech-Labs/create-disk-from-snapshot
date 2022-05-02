@@ -1,10 +1,10 @@
 ## Prerequisite
 
-- Ansible Installed
-- terraform installed
+- Ansible
+- Terraform
 - gcloud cli(recommended)
 
-## Setup Gcloud
+## Setup gcloud-cli
 
 - sudo snap install google-cloud-cli
 - gcloud auth login
@@ -20,7 +20,7 @@
 
 - Create a ssh key
 - Copy pub key and upload to google cloud > compute engine > metadata section
-- ssh-keygen -f ~/.ssh/known_hosts
+- ``` ssh-keygen -f ~/.ssh/known_hosts ```
 
 ## How to Run
 
