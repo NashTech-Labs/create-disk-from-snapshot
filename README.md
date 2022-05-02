@@ -1,6 +1,5 @@
 ## Prerequisite
 
-- Ansible
 - Terraform
 - gcloud cli(recommended)
 
